@@ -1,0 +1,39 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis cpu,
+.axis memory {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.cpu {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.randint {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.memory {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}
+
+.tweet {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
+}

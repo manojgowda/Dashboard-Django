@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<html>
+	<head>
+		<title> Dashboard </title>
+		<script src="http://d3js.org/d3.v3.js"></script>
+		<link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+	</head>
+	<body>
+		<div id="cpu"></div>
+		<div id="random"></div>
+		<div id="twitter"></div>
+		<div id="stock"></div>
+		<script src="{% static 'js/dashboardData.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/dashboard.js' %}"></script>
+	</body>
+</html>
