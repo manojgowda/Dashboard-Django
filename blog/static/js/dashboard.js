@@ -239,7 +239,7 @@ function stockmarket() {
       .attr("dx", xcenter)
       .attr("font-size", "1.3em")
       .style("text-anchor", "end")
-      .text("date(M)");
+      .text(" ( StockMarket Price ) date(M)");
 
   	svg.append("g")
       .attr("class", "y axis")
@@ -316,10 +316,10 @@ function cpuMemory() {
     .append("text")
       .attr("transform", "rotate(0)")
       .attr("y", 40)
-      .attr("dx", xcenter)
+      .attr("dx", 300)
       .attr("font-size", "1.3em")
-      .style("text-anchor", "end")
-      .text("time(s)");
+      .style("text-anchor", "center")
+      .text("( CPU and Memory Utilization ) time(s)");
 
   	svg.append("g")
       .attr("class", "y axis")
@@ -369,10 +369,10 @@ function randomInt() {
     .append("text")
       .attr("transform", "rotate(0)")
       .attr("y", 40)
-      .attr("dx", xcenter)
+      .attr("dx", 300)
       .attr("font-size", "1.3em")
       .style("text-anchor", "end")
-      .text("time(s)");
+      .text("(Random-Numbers) time(s)");
 
   	svg.append("g")
       .attr("class", "y axis")
@@ -414,10 +414,10 @@ function twitter(){
     .append("text")
       .attr("transform", "rotate(0)")
       .attr("y", 40)
-      .attr("dx", xcenter)
+      .attr("dx", 300)
       .attr("font-size", "1.3em")
       .style("text-anchor", "end")
-      .text("time(m)");
+      .text("( Number Of Tweets/Min ) time(m)");
 
     svg.append("g")
       .attr("class", "y axis")

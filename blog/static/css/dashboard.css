@@ -10,8 +10,8 @@ body {
   shape-rendering: crispEdges;
 }
 
-div {
-	width: 100%
+svg {
+	background-color: white;
 }
 
 .xaxis {
@@ -25,8 +25,8 @@ div {
 	display: inline;
 }
 #twitter {
-	margin : 7%;
 	display: inline;
+	margin:7%;
 }
 
 #random {
