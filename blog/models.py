@@ -1,14 +1,8 @@
 from django.db import models
 from django.utils import timezone
 
-
-class Cpuandmemeory(models.Model):
-	cpuper = models.FloatField()
-	memory = models.FloatField()
-
-
-
-class Twittercounts(models.Model):
+class TwitterCount(models.Model):
 	name = models.CharField(max_length=100, default="")
-	twittercount = models.IntegerField()
-	totalcounts = models.IntegerField()
+	tweets_min = models.IntegerField()
+	statuses_count = models.IntegerField()
+	time = models.DateTimeField(default=timezone.now())

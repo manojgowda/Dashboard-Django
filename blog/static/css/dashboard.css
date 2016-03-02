@@ -1,17 +1,85 @@
 body {
   font: 10px sans-serif;
+  background-color: rgba(1,1,1, 0.1);
 }
 
-.axis path,
-.axis cpu,
-.axis memory {
+.axis path {
   fill: none;
-  stroke: #000;
+  stroke-width: 2;
+  stroke: lightgrey;
   shape-rendering: crispEdges;
 }
 
+div {
+	width: 100%
+}
+
+.xaxis {
+  fill: transparent;
+  stroke-width: 1;
+  stroke: grey;
+}
+
+#cpu {
+	margin: 7%;
+	display: inline;
+}
+#twitter {
+	margin : 7%;
+	display: inline;
+}
+
+#random {
+	margin : 7%;
+	display: inline;
+}
+
+#stock {
+	margin : 7%;
+	display : inline;
+}
+
+#random svg {
+	background-color: background-color:rgba(8, 8, 8, 0.3)
+}
+
+
+.legend1 {
+    font-size: 12px;
+    transform: translate(310px, 0px);
+}
+.legend2 {
+    font-size: 12px;
+    transform: translate(310px,25px);
+}
+
+
+.legend3 {
+    font-size: 12px;
+    transform: translate(250px, 295px);
+}
+.legend4 {
+    font-size: 12px;
+    transform: translate(315px,295px);
+}
+
+rect {
+    stroke-width: 2;
+}
 .x.axis path {
   display: none;
+}
+
+.fb {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.yahoo {
+  fill: none;
+  stroke: red;
+  stroke-width: 1.5px;
 }
 
 .cpu {
